@@ -8,6 +8,13 @@
     max-width: 100%;
   }
   
+h1{
+ font-size: small;   
+}
+p{
+    font-size:x-small
+}
+
   .container {
     width: 80%;
     margin: 0 auto;
@@ -57,8 +64,29 @@
     bottom: 100px;
     left: 0;
     background-color: red;
+    color: white;
   }
   
+
+  .discount-green {
+    position: absolute;
+    bottom: 100px;
+    left: 38px;
+    background-color: green;
+    color: white;
+  }
+
+
+  .discount-green-special {
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    background-color: green;
+    color: white;
+  }
+
+
+
   .heart {
     position: absolute;
     top: 20px;
